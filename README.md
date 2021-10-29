@@ -1,0 +1,1 @@
+# erickson-adriano_BSC-TRAINEE-EXAM
