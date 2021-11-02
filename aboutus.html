@@ -1,33 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>ML shop</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 </head>
+
+
+
+
+<style >
+	body{
+
+		background-color: #EDE9E8;
+	}
+	
+.buy-section{
+
+	width: 40%;
+
+	height: auto;
+	border:1px solid black;
+	float: left;
+	margin: 20px;
+	border-radius: 3px;
+	background-color: white;
+}
+.purchase{
+	width: 40%;
+	height: auto;
+	border:1px solid black;
+	float: left;
+	margin: 20px;
+	border-radius: 3px;
+	background-color: white;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+table{
+	margin-bottom: : 5px;
+}
+
+
+</style>
 <body>
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="main.html">WebSiteName</a>
+      <a class="navbar-brand" href="main.html">Ml Shop</a>
     </div>
     <ul class="nav navbar-nav">
-      <li ><a href="main.html">Home</a></li>
-      <li class="active"><a href="aboutus.html">about US</a></li>
-      <li><a href="full.html">my full details</a></li>
+      <li ><a href="main.html">Shop item</a></li>
+      <li class="active"><a href="aboutus.html">buy Diamond</a></li>
+      <li><a href="full.html">MY item</a></li>
       <li><a href="contactus.html">contact us</a></li>
+
+      <li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img style="height: 30px;width: 60px;" src="img/dias.png">diamond <input  style="width: auto;" type="text" name="diamond" value="24681" placeholder="24681"> <a href="#"></a></li>
     </ul>
   </div>
 </nav>
   
-<div class="container">
-  <h3>Basic Navbar Example</h3>
-  <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
-</div>
 
+  <h1 align="center">welcome to diamond shop</h1>
+  <div  class="buy-section">	
+  	<h3 align="center">Buy diamonds</h3>
+			<table align="center">	
+			<tr>
+			<th>Quantity</th>
+			<th>price</th>
+			<th>purchase	</th>
+			</tr>
+			<tr>	
+			<td>10+1 diamond	</td>
+			<td>php 10	</td>
+			<td><button class="btn-dias-10">buy!	</button>	</td>
+			</tr>
+
+			<tr>	
+			<td>20+2 diamond	</td>
+			<td>php 20	</td>
+			<td><button class="btn-dias-20">buy!	</button>	</td>
+			</tr>
+
+			<tr>	
+			<td>50+5 diamond	</td>
+			<td>php 50	</td>
+			<td><button class="btn-dias-50">buy!	</button>	</td>
+			</tr>
+
+			<tr>	
+			<td>100+10 diamond	</td>
+			<td>php 100	</td>
+			<td><button class="btn-dias-100">buy!	</button>	</td>
+			</tr>
+
+			<tr>	
+			<td>200+20 diamond	</td>
+			<td>php 200	</td>
+			<td><button class="btn-dias-200">buy!	</button>	</td>
+			</tr>
+
+			<tr>	
+			<td>1000+100 diamond	</td>
+			<td>php 1000	</td>
+			<td><button class="btn-dias-1000">buy!	</button>	</td>
+			</tr>
+
+			</table>
+
+
+  </div>
+  <div class="purchase">	
+  	
+  		<table align="center">	
+  			<h3 align="center">Your  Order</h3>
+  			<tr>	
+  				<th>quantity	</th>
+  				<th>price	</th>
+  				<th>date 	</th>
+  			</tr>
+  			<tr>	
+  					<td><p class="10-dias"	>no data</p></td>
+  					<td><p class="price-dias-10">no data</p>	</td>
+  					<td><p id="date-10">	no data</p></td>
+  			</tr>
+  			<tr>	
+  					<td><p class="20-dias"	>no data</p></td>
+  					<td><p class="price-dias-20">no data</p>	</td>
+  					<td><p id="date-20">	no data</p></td>
+  			</tr>
+  			<tr>	
+  					<td><p class="50-dias"	>no data</p></td>
+  					<td><p class="price-dias-50">no data</p>	</td>
+  					<td><p id="date-50">no data	</p></td>
+  			</tr>
+  			<tr>	
+  					<td><p class="100-dias"	>no data</p></td>
+  					<td><p class="price-dias-100">no data</p>	</td>
+  					<td><p id="date-100">	no data</p></td>
+  			</tr>
+  			<tr>	
+  					<td><p class="200-dias"	>no data</p></td>
+  					<td><p class="price-dias-200">no data</p>	</td>
+  					<td><p id="date-200">no data	</p></td>
+  			</tr>
+
+  			<tr>	
+  					<td><p class="1000-dias"	>no data</p></td>
+  					<td><p class="price-dias-1000">no data</p>	</td>
+  					<td><p id="date-1000">no data	</p></td>
+  			</tr>
+
+  		</table>
+
+
+  </div>
+
+
+
+<script type="text/javascript">
+	const d= new Date();
+	$('.btn-dias-10').click(function()
+		{
+				$('.10-dias').text('10 ML diamond');
+				$('.price-dias-10').text('Php 10');
+				document.getElementById("date-10").innerHTML = d;
+				alert('thank you :)');
+
+
+		}
+
+
+	);
+
+	$('.btn-dias-20').click(function()
+		{
+				$('.20-dias').text('20 ML diamond');
+				$('.price-dias-20').text('Php 20');
+				document.getElementById("date-20").innerHTML = d;
+				alert('thank you :)');
+
+
+		}
+
+
+	);
+
+	$('.btn-dias-50').click(function()
+		{
+				$('.50-dias').text('50 ML diamond');
+				$('.price-dias-50').text('Php 50');
+				document.getElementById("date-50").innerHTML = d;
+				alert('thank you :)');
+
+
+		}
+
+
+	);
+	$('.btn-dias-100').click(function()
+		{
+				$('.100-dias').text('100 ML diamond');
+				$('.price-dias-100').text('Php 100');
+				document.getElementById("date-100").innerHTML = d;
+				alert('thank you :)');
+
+
+		}
+
+
+	);
+	$('.btn-dias-200').click(function()
+		{
+				$('.200-dias').text('200 ML diamond');
+				$('.price-dias-200').text('Php 200');
+				document.getElementById("date-200").innerHTML = d;
+				alert('thank you :)');
+
+
+		}
+
+
+	);
+
+	$('.btn-dias-1000').click(function()
+		{
+				$('.1000-dias').text('1000 ML diamond');
+				$('.price-dias-1000').text('Php 1000');
+				document.getElementById("date-1000").innerHTML = d;
+				alert('thank you :)');
+
+
+		}
+
+
+	);
+
+				
+</script>
 </body>
 </html>
