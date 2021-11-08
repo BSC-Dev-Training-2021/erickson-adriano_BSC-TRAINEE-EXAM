@@ -1,0 +1,46 @@
+body{
+		
+		opacity: .7;
+		background-image: url("../image/bg.jpeg");
+		height:auto;
+		width: auto;%;
+		background-repeat: no-repeat;
+
+
+	}
+	.login{
+
+		height: 300px;
+		width: 300px;
+		background-color: orange;
+		opacity: .9;
+		padding: 20px;
+		border:5px solid gray;
+		margin: 50px;
+		border-radius: 16px
+
+
+	}
+	form{
+
+		align-items: center;;
+	}
+	input{
+
+		opacity: 2;
+		border:2px solid black;
+		border-radius: 10px;
+		height: 20px;
+
+	}
+	.inp
+	{
+		height: 30px;
+		width: 150px;
+		font-family: 'Sans-serif';
+		size: 20px;
+	}
+	.btn{
+		height: 20px;
+		width: 70px:;
+	}
