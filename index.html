@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+</head>
+<style type="text/css">
+	body{
+		
+		opacity: .7;
+		background-image: url("bg.jpeg");
+		height:auto;
+		width: auto;%;
+		background-repeat: no-repeat;
+
+
+	}
+	.login{
+
+		height: 300px;
+		width: 300px;
+		background-color: orange;
+		opacity: .9;
+		padding: 20px;
+		border:5px solid gray;
+		margin: 50px;
+		border-radius: 16px
+
+
+	}
+	form{
+
+		align-items: center;;
+	}
+	input{
+
+		opacity: 2;
+		border:2px solid black;
+		border-radius: 10px;
+		height: 20px;
+
+	}
+	.inp
+	{
+		height: 30px;
+		width: 150px;
+		font-family: 'Sans-serif';
+		size: 20px;
+	}
+	.btn{
+		height: 20px;
+		width: 70px:;
+	}
+
+
+</style>
+<body>
+	<center>
+	<div class="login" align="center">
+		<h1>welcom to my shop!</h1>
+		<h1>lOGIN HERE</h1>
+
+		<form  class="form">
+			<p class="inp">Username<input class="username" type="username" name=""></p>
+			<p class="inp">Password<input class="password" type="password" name=""></p>
+
+		</form><br>
+		<button class="btn" type="submit"> login</button><br><br>
+
+	<a >register   <a href="register.html">here</a></a>
+
+	</div>
+	/<center>
+<script type="text/javascript">
+	
+				const admin= "admin";
+				const password= 12345;
+		$('.btn').click(function(){
+
+			if ($('.username').val()==admin)
+			{
+				if($('.password').val()==password)
+						{
+							alert('click ok to continue');
+							window.location="main.html";
+						}
+				else
+						{
+							alert('wrong password');
+							$('.password').val('');
+						}
+			}
+			else{
+				alert('wrong credential pls try again');
+				$('.username').val('');
+				$('.password').val('');
+			}
+		});
+
+</script>
+</body>
+</html>
